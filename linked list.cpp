@@ -30,6 +30,7 @@ class singlylinkedlist{
 		head=n;
 	}
 		//check if node exists using key values
+
 		node* nodeExists(int k){
 			node* temp=NULL;
 			node* ptr=head;
@@ -43,7 +44,7 @@ class singlylinkedlist{
 			
 		}
 		
-		//append a node to the list
+		//APPEND A NODE
 		
 		void appendNode(node *n){
 			if(nodeExists(n->key)!=NULL){
@@ -64,7 +65,7 @@ class singlylinkedlist{
 				}
 			}
 		}
-			//prepend node
+			//PREPEND A NODE
 			
 			void prependNode(node *n){
 			if(nodeExists(n->key)!=NULL){
