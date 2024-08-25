@@ -1,6 +1,7 @@
 This program demonstrates various operations on a singly linked list using C++. The singlylinkedlist class provides multiple methods to manipulate nodes in the list, such as appending, prepending, inserting, deleting, and updating nodes. Below is a detailed explanation of the operations this code performs and some common applications of linked lists.
 
-Operations Performed:
+OPERATIONS PERFORMED:
+
 Append Node (appendNode(node* n)):
    Adds a new node to the end of the linked list. If a node with the same key already exists, it will not be added.
    
@@ -22,7 +23,7 @@ Print Nodes (printing()):
 Clear Screen (system("cls")):
    Clears the console screen. (Note: This function is platform-dependent and works on Windows systems.)
 
-Linked List Applications:
+LINKED LIST APPLICATIONS:
 
 Dynamic Memory Allocation:
   Linked lists allow dynamic memory allocation, meaning the list can grow or shrink as needed, unlike arrays, which have a fixed size.
